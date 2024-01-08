@@ -2,10 +2,8 @@
 Otherwise, return false.
 isThisMyName('Adam');
 */
-const isThisMyName = 'Maciej';
-if (isThisMyName === 'Maciej') {
-    console.log('True');
-} else {
-    console.log('False');
-}
 
+function isThisMyName(name) {
+    return name === 'Maciej';
+}
+console.log('wynik funkcji', isThisMyName('Maciej'));
