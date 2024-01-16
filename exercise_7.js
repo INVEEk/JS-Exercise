@@ -8,16 +8,16 @@ rockPaperScissors('paper','paper'); // 0
 function rockPaperScissors (player1, player2)
 {
     if (player1 == player2) {
-        console.log("0");
+        return "0";
     }
     else if ((player1 == "rock") && (player2 == "scissors")) {
-        console.log("1");
+        return "1";
     }
     else if ((player1 == "rock") && (player2 == "paper")) {
-        console.log("2");
+        return "2";
     }
 }
 
-rockPaperScissors('rock', 'scissors');
-rockPaperScissors('rock', 'paper');
-rockPaperScissors('paper','paper');
+console.log(rockPaperScissors('rock', 'scissors'));
+console.log(rockPaperScissors('rock', 'paper'));
+console.log(rockPaperScissors('paper','paper'));
