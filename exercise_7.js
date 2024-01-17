@@ -7,13 +7,13 @@ rockPaperScissors('paper','paper'); // 0
 
 function rockPaperScissors (player1, player2)
 {
-    if (player1 == player2) {
+    if (player1 === player2) {
         return "0";
     }
-    else if ((player1 == "rock") && (player2 == "scissors")) {
+    else if ((player1 === "rock") && (player2 === "scissors")) {
         return "1";
     }
-    else if ((player1 == "rock") && (player2 == "paper")) {
+    else if ((player1 === "rock") && (player2 === "paper")) {
         return "2";
     }
 }

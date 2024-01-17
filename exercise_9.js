@@ -10,3 +10,13 @@ let firstNumber = 1;
 
 console.log(firstNumber);
 console.log(secondNumber);
+
+/* [firstNumber, secondNumber] = [secondNumber, firstNumber]; */
+
+function swapNumberValues() {
+    const box = secondNumber;
+    secondNumber = firstNumber
+    firstNumber = box
+}
+
+swapNumberValues();

@@ -2,4 +2,7 @@
 Print it to the console
  */
 
-let width, height;
+const height = 30;
+const width = 20;
+const area = height * width;
+console.log(area)
