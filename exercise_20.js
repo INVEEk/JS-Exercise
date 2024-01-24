@@ -10,11 +10,11 @@ Names given are always valid strings.
 
 function areYouPlayingBanjo(name) {
     if (name[0] === "r" || name[0] === "R") {
-        return name +  ` plays banjo`;
+        return `${name} plays banjo`;
     } else {
-        return name + ` does not play banjo`;
+        return `${name} does not play banjo`;
     }
 }
 
 console.log(areYouPlayingBanjo("Zbyszek"));
-console.log(areYouPlayingBanjo("Rysiu"));
+console.log(areYouPlayingBanjo("Rysiu"))
