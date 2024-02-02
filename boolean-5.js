@@ -11,7 +11,7 @@ function rentalCarCost(days) {
     if (days >= 7)
         return (days * dayPrice) - 50
     else if (days >= 3 && days < 7)
-        return (days * dayPrice) - 30
+        return (days * dayPrice) - 20
     else if (days < 3)
         return (days * dayPrice)
 }
