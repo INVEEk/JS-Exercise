@@ -8,14 +8,17 @@ Write a code that gives out the total amount for different days(d).
 const dayPrice = 40
 
 function rentalCarCost(days) {
-    if (days >= 5)
+    if (days >= 7)
         return (days * dayPrice) - 50
-    else if (days >= 3 && days < 5)
+    else if (days >= 3 && days < 7)
         return (days * dayPrice) - 30
     else if (days < 3)
         return (days * dayPrice)
 }
+
+
 console.log("Your trip will cost " + rentalCarCost(2) +"$");
 console.log("Your trip will cost " + rentalCarCost(3) +"$");
 console.log("Your trip will cost " + rentalCarCost(4) +"$");
-console.log("Your trip will cost " + rentalCarCost(8) +"$");
+console.log("Your trip will cost " + rentalCarCost(6) +"$");
+console.log("Your trip will cost " + rentalCarCost(7) +"$");
