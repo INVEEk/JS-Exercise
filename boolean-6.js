@@ -13,13 +13,13 @@ Examples
  */
 
 function getRealFloor(n) {
-    if (n === 0)
+    if (n === 0) {
         return (0)
-    if (n === -Math.abs(n))
+    } if (n === -Math.abs(n)) {
         return (-Math.abs(n))
-    if (n >= 1 && n <= 13)
+    } if (n >= 1 && n <= 13) {
         return (n - 1)
-    return (n -2)
+    } return (n - 2)
 }
 
 console.log(getRealFloor(1));
