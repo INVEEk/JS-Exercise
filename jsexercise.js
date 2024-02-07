@@ -72,3 +72,25 @@ if (currentMonth >= 1 && currentMonth <= 3) {
     console.log("It's Summer!");
 } else console.log("It's Autumn!")
 
+
+/*
+modify your greet function to accept two arguments:
+
+the first name
+
+and the last name
+
+and combine them when calling the alert function in the body of your greet function
+
+*/
+
+const firstName = prompt('What is your first name?', 'User name');
+const lastName = prompt('What is your last name?', 'User name');
+
+function greetUser(name, surname) {
+    alert(`Hello ${name} ${surname}. Best wishes for you`);
+}
+
+greetUser(firstName, lastName);
+
+greetUser("Ala", "Nowak");
