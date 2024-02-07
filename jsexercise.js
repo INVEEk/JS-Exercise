@@ -48,3 +48,27 @@ if (isPayingVAT) {
 taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
 
 alert(`tax to pay: ${taxToPay}`);
+
+/* #3 Declare a variable called isSunny and assign assign a boolean value to it. Create an if-else statement that checks if it's sunny. If it is, print "Don't forget your sunglasses!". If it's not, print "You might need an umbrella."
+*/
+
+let isSunny = true;
+if (isSunny) {
+    console.log ("Don't forget your sunglasses!");
+} else console.log("You might need an umbrella.");
+
+/* #4
+Create a variable named
+currentMonth
+and assign a number representing the current month. Use an if statement to check the month and print a message based on the season (e.g., "It's winter" for December, January, and February).
+ */
+
+const currentMonth = 11;
+if (currentMonth >= 1 && currentMonth <= 3) {
+    console.log("It's winter");
+} else if (currentMonth >= 4 && currentMonth <= 6)  {
+    console.log("It's Spring!");
+} else if (currentMonth >= 7 && currentMonth <= 9)  {
+    console.log("It's Summer!");
+} else console.log("It's Autumn!")
+
