@@ -18,3 +18,5 @@ function isPersonQualifiedToVote (age) {
 
 isPersonQualifiedToVote(age);
 isPersonQualifiedToVote(18);
+
+

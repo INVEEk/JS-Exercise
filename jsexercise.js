@@ -70,7 +70,9 @@ if (currentMonth >= 1 && currentMonth <= 3) {
     console.log("It's Spring!");
 } else if (currentMonth >= 7 && currentMonth <= 9)  {
     console.log("It's Summer!");
-} else console.log("It's Autumn!");
+} else {
+    console.log("It's Autumn!");
+}
 
 
 /*
