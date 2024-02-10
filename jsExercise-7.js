@@ -4,10 +4,9 @@ values "red", "yellow", or "green". Use an if statement to print a message based
  */
 
 let currentColor = `green`;
-    if (currentColor === "red") {
-        console.log(`Stop`);
-    } else if (currentColor === "yellow") {
-        console.log(`Speed up!`);
-    } else if (currentColor === "green") {
-        console.log(`Go!`);
-    }
+if (currentColor === "red") {
+    console.log(`Stop`);
+} else if (currentColor === "yellow") {
+    console.log(`Speed up!`);
+} else (currentColor === "green")
+    console.log(`Go!`);

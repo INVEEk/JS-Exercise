@@ -13,7 +13,9 @@ const age = 14
 function isPersonQualifiedToVote (age) {
     if (age >= 18) {
         console.log(`A citizen can vote`);
-    } else console.log(`A citizen can't vote`);
+    } else {
+        console.log(`A citizen can't vote`);
+    }
 }
 
 isPersonQualifiedToVote(age);

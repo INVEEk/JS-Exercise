@@ -40,10 +40,10 @@ const isPayingVAT = true;
 let VATRateInPoland = 0.23;
 const incomeTaxRate = 0.12;
 let monthlyIncome = 3500;
-const taxToPay = 0; // <-- taxToPay is declared as 0, can be overwritten by monthlyIncome * vatRateInPoland as it is const. If let, could stays as it is.
+let taxToPay = 0; // <-- taxToPay is declared as 0, can't be overwritten by monthlyIncome * vatRateInPoland. If let, could stays as it is.
 
 if (isPayingVAT) {
-    taxToPay = monthlyIncome * vatRateInPoland; // <--- #1 Mistake - let VAT is declared, not vat
+    taxToPay = monthlyIncome * VATRateInPoland; // <--- #1 Mistake - let VAT is declared, not vat
 }
 taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
 
@@ -55,7 +55,9 @@ alert(`tax to pay: ${taxToPay}`);
 let isSunny = true;
 if (isSunny) {
     console.log ("Don't forget your sunglasses!");
-} else console.log("You might need an umbrella.");
+} else {
+    console.log("You might need an umbrella.");
+}
 
 /* #4
 Create a variable named
