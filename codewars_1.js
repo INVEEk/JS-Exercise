@@ -17,7 +17,7 @@ Note: side will be an integer
 function cubeChecker(volume, side){
     if (volume === side**3 && volume !== 0 && side !== 0 && side === Math.abs(side)) {
         return true;
-    } else if (volume <= 0 || side <= 0); {
+    } else {
         return false;
     }
 }
